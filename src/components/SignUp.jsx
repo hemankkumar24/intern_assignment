@@ -33,7 +33,7 @@ const SignUp = () => {
   return (
     <div>
         <div className="min-h-screen w-full h-screen bg-[url('/images/bg_image_blur.png')] bg-cover bg-center text-white flex items-center justify-center">
-        <div className='w-[30%] h-[60%] rounded-lg bg-white flex flex-col px-10 py-7'>
+        <div className='w-[80%] h-[60%] md:w-[60%] lg:w-[40%] md:h-[60%] rounded-lg bg-white flex flex-col px-10 py-7'>
         <div className='text-4xl text-black'>Welcome User!</div>
         <div className='text-xl text-black pb-8'>Sign up Here for a New Account</div>
         <form onSubmit={(e) => {handleSubmit(e);}}>
